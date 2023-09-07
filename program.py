@@ -12,10 +12,6 @@ def parse_input(input_str):
             except ValueError:
                 return None, None
     return None, None
-# test
-# hi adam
-
-# test2
 
 preset_lifts = [
     "bench press",
