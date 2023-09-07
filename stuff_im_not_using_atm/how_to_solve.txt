@@ -1,0 +1,4 @@
+# 1 - understand the problem
+# 2 - break down problem into small chunks
+# 3 - convert each chunk into code
+# 4 - execute your code (and debug)
