@@ -1,0 +1,55 @@
+Gym lift progress calculator
+
+This a progress tracker for your lifts to see where 
+you are at in terms of progress. This can be used to 
+see how far along you are towards your lifetime goals, 
+or can be used to see what is furthest behind compared
+to your other lifts. This will help you determine what 
+you need to specialize in terms of your next training
+program. 
+
+This is also used for the purpose of determing where 
+your numbers would be at if you go to a non free weight
+gym, such as planet fitness, and your goal numbers are 
+for free weight movements. 
+
+Add on features:
+- could include choosing your lifting goals and 
+templates/ratios that would help someone determine them
+  - (ex) 3:4:5 ratio for bench, squat, deadlift
+  - (ex) 2:3 ratio for pull up to dip
+  - (ex) if want an emphasis or have better leverages
+    for certain lift, can modify the ratios
+    (ex) determine what is classified as beginner,
+    int, adv, and elite and define what each of those
+    mean
+
+Lifts
+- Bench press: SM BP, IN SM BP, IN BP, DB BP, IN DB BP, Weighted dip
+- Squat: SM Squat
+- SLDL: SM SLDL
+- Weighted pull up: 
+- OHP: SM OHP, DB OHP
+
+
+Steps
+1. establish goals for each lift
+2. find calulations to determine lift based off of the other lift variations
+3. find calculations for different reps with a given weight 
+
+
+Goals 
+Bench Press 405x1 or 360x5 
+Weighted Dip 275x1 or 245x5
+Weighted Pull Up 185-220x1 (165-195x5) or 1:1 bw
+Squat 540x1 or 480x5
+SLDL 540x5 (@90%) 
+Seated BB OHP 300x5 ?
+
+Goals (1RM)
+1. weighted pull up 200x1
+2. squat 540x1
+3. bench press 405x1 
+4. seated bb ohp 340x1 
+5. SLDL 607.5x1
+
