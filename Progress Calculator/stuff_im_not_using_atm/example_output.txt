@@ -1,0 +1,35 @@
+So what do i want it to do?
+I want to be able to plug in 
+Choose: 1RM, 5RM, Goal 1RM, Goal Progress, Goal 5RM
+
+Input: 
+  SM squat 350x4, goal 1RM
+Return: (350 / .9166 * .95) aka (weight / reps_4 * sm_to_squat_conv)
+  Squat 1RM: 363 lbs
+
+Input 2: 
+  SM squat 350x4, goal 5RM
+Return 2: (weight / reps_4 * sm_to_squat_conv * reps_5)
+  Squat 5RM: 322x5 lbs
+
+Input 3: 
+  SM squat 350x4, 1RM
+Return 3: (weight / reps_4)
+  SM Squat 1RM: 382 lbs
+
+Input 4: 
+  SM squat 350x4, 5RM
+Return 4: (weight / reps_4 * reps_4)
+  SM Squat 5RM: 339x5 lbs
+
+Input 5: 
+  SM squat 350x4, goal progress
+Return 4: (weight / reps_4 * sm_to_squat_conv / goal)
+  Squat: 67%
+
+Other Examples
+Input: SM BP 235x5
+Ruturn: 78% progress
+
+Input: weighted dip 135x8, sm squat 365x4, sm sldl 365x6.2
+Return: 54%, 81%, 80%
